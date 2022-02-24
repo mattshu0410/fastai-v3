@@ -6,6 +6,8 @@ fastai==1.0.61
 torch==1.6.0
 torchvision==0.7.0
 numpy==1.19.0
+opencv-contrib-python==4.1.2.30
+opencv-python==4.1.2.30
 pillow~=8.1
 python-multipart==0.0.5
 starlette==0.13.6
