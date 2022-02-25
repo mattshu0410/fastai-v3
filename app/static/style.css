@@ -54,7 +54,7 @@ button.analyze-button {
     height: 40px;
     border: solid 1px #7052CB;
     border-radius: 2px;
-    background-color: #7052CB;
+    background-color: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     font-size: 13px;
     color: #ffffff;
 }
