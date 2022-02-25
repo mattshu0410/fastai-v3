@@ -48,7 +48,7 @@ button.choose-file-button {
     background-clip: text;
     border: transparent 1px;
     font-size: 13px;
-    color: #transparent;
+    color: transparent;
 }
 
 button.analyze-button {
