@@ -46,6 +46,7 @@ button.choose-file-button {
     border-radius: 2px;
     background-image: linear-gradient(90deg, #e146fc, #613ffb);
     background-clip: text;
+    -webkit-background-clip: text;
     border: transparent 1px;
     font-size: 13px;
     color: transparent;
