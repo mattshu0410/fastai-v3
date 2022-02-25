@@ -44,10 +44,11 @@ button.choose-file-button {
     width: 200px;
     height: 40px;
     border-radius: 2px;
-    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #e146fc, #613ffb);
+    background-clip: text;
     border: transparent 1px;
     font-size: 13px;
-    color: #7052CB;
+    color: #transparent;
 }
 
 button.analyze-button {
