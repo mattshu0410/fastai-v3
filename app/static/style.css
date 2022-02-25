@@ -43,8 +43,8 @@ button.choose-file-button {
     width: 200px;
     height: 40px;
     border-radius: 2px;
-    background-color: #ffffff;
-    border: solid 1px #7052CB;
+    background-image: linear-gradient(90deg, #e146fc, #613ffb);
+    border: solid 0px #7052CB;
     font-size: 13px;
     color: #7052CB;
 }
@@ -52,9 +52,9 @@ button.choose-file-button {
 button.analyze-button {
     width: 200px;
     height: 40px;
-    border: solid 1px #7052CB;
+    border: solid 0px #000000;
     border-radius: 2px;
-    background-color: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-image: linear-gradient(90deg, #e146fc, #613ffb);
     font-size: 13px;
     color: #ffffff;
 }
