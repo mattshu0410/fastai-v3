@@ -4,7 +4,7 @@ This was a proof-of-concept deployment of a image classification model that can 
 
 # Deployment
 
-This was written in [fast.ai](https://www.fast.ai) and the model was deployed on [Render](https://render.com)
+This was written in [fast.ai](https://www.fast.ai) and the model was deployed on [Render](https://render.com).
 This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
 The sample app described here is up at https://project-outreach.onrender.com/. Test it out with acne/tretinoin burn images.
 You can test your changes locally by installing Docker and using the following command:
