@@ -11,7 +11,7 @@
     <p class='paragraph-style'>
       Use images of <strong>Acne</strong> or <strong>Tretinoin/Retinol Burn!</strong> 
     </p>
-    <div class='content'>
+    <div class='glass-panel'>
       <div class='no-display'>
         <input id='file-input'
                class='no-display'
@@ -20,15 +20,15 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <button class='glass-button' type='button' onclick='showPicker()'>Select Image</button>
       <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
+        <label id='upload-label' class='paragraph-style'>No File Chosen</label>
       </div>
       <div>
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
       </div>
       <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+        <button id='analyze-button' class='glass-button' type='button' onclick='analyze()'>Analyze</button>
       </div>
       <div class='result-label'>
         <label id='result-label'></label>
