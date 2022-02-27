@@ -23,11 +23,12 @@ body {
     margin-top: 1em;
     margin-bottom: 1em;
     color: #262626;
-    font-family: Breite, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .paragraph-style{
-    font-family: Breite, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
     
 }
 
@@ -75,6 +76,7 @@ body {
   letter-spacing: 2px;
   cursor: pointer;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .glass-button:hover {
