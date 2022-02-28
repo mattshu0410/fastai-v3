@@ -1,5 +1,5 @@
 body {
-  background: url(https://images.unsplash.com/photo-1473662712020-75289ee3c5de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80) no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1521811628991-7a3ea581f7d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,12 +52,12 @@ body {
 }
 
 .glass-panel {
-  color: #fff;
+  color: #000000;
   margin: 40px auto;
   background-color: rgba(255,255,255,0.06);
   border: 1px solid rgba(255,255,255,0.1);
   width: 100%;
-  border-radius: 15px;
+  border-radius: 30px;
   padding: 32px;
   backdrop-filter: blur(5px);
 }
@@ -71,7 +71,7 @@ body {
   background-color: rgba(255,255,255,0.1);
   border: 1px solid rgba(255,255,255,0.1);
   backdrop-filter: blur(20px);
-  color: rgba(255,255,255,0.8);
+  color: rgba(0,0,0,0.8);
   font-size: 14px;
   letter-spacing: 2px;
   cursor: pointer;
@@ -80,6 +80,27 @@ body {
 }
 
 .glass-button:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+.glass-button-analyze{
+  display: inline-block;
+  padding: 24px 32px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(20px);
+  color: rgba(0,0,0,0.8);
+  font-size: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.glass-button-analyze:hover {
   background-color: rgba(255,255,255,0.2);
 }
 
